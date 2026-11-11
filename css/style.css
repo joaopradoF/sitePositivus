@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    overflow-x: hidden;
+    font-family: 'inter', apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, helvetica, Arial, sans-serif;
+}
+
+
+/* CABEÇALHO */
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 120px;
+    font-size: 20px;
+
+    & img {
+        width: 200px;
+        height: auto;
+    }
+}
+
+.cabecalho2 {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+
+    & ul {
+        display: flex;
+        gap: 40px;
+    }
+
+    & h1 {
+        border: 1px solid black;
+        border-radius: 10px;
+        padding: 15px 40px;
+        font-size: 20px;
+        font-weight: normal;
+    }
+}
+
+/* PRINCIPAL */
+
+.principal {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    align-items: center;
+    margin-top: 50px;
+
+    & h1 {
+        font-size: 65px;
+    }
+
+    & img {
+        height: 500px;
+        width: auto;
+    }
+
+    & h2 {
+        font-size: 15px;
+        background-color: black;
+        color: white;
+        text-align: center;
+        border-radius: 10px;
+        padding: 20px;
+        width: 250px;
+    }
+
+    & p {
+        margin-bottom: 20px;
+        font-size: 22px;
+        margin-top: 50px;
+    }
+
+}
+
+.fim {
+    display: flex;
+    gap: 50px;
+    margin-top: 70px;
+
+    & h3 {
+        background-color: #94fc57;
+        border-radius: 7px;
+        margin-left: 100px;
+        width: 170px;
+        height: 50px;
+        align-content: center;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    & h4 {
+        font-size: 20px;
+
+    }
+}
+
+/* CARDS */
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    padding: 100px;
+
+    & img {
+        width: 200px;
+        height: auto;
+    }
+    & strong {
+        background-color: #94fc57;
+        color: black;
+    }
+    & span {
+        background-color: white;
+        color: black;
+    }
+}
+
+.card-branco,
+.card-verde,
+.card-escuro {
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 250px;
+    padding: 35px;
+    border: 1px solid #191a23;
+    border-bottom: 5px solid #191a23;
+    border-radius: 30px;
+}
+
+.card-branco {
+    background-color: #f3f3f3;
+}
+
+.card-verde {
+    background-color: #b9ff66;
+}
+
+.card-escuro {
+    background-color: #191a23;
+    color: white;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+
+    & h2 {
+        font-size: 30px;
+        font-weight: 500;
+        border-radius: 5px;
+    }
+
+    & p {
+        font-size: 25px;
+        cursor: pointer;
+    }
+}
