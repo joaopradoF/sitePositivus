@@ -37,7 +37,6 @@
         border-radius: 10px;
         padding: 15px 40px;
         font-size: 20px;
-        font-weight: normal;
     }
 }
 
@@ -102,8 +101,11 @@
 /* CARDS */
 
 .cards {
+    
+    /* Usei IA apenas nessas 2 linhas para alinhar como na referência */
     display: grid;
     grid-template-columns: 1fr 1fr;
+
     gap: 40px;
     padding: 100px;
 
